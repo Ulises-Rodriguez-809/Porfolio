@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* brand */
+.brandContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandImg{
+  width: 4rem;
+  height: 4rem;
+}
+
+/* navbar */
+.navbar{
+  font-size: 1.5rem;
+}
+
+.navbar>.container-fluid{
+  gap : 5rem
+}
+
+.navbar-brand{
+  color: rgb(255, 145, 0);
+  font-size: 2.2rem;
+}
+
+.nav-link{
+  color: #fff;
+  margin: 0 1rem;
+}
+
+/* footer */
+.footer {
+  min-height: 12rem;
+  font-size: 1.2rem;
+  background-color: rgb(28 28 28 / 80%);
+  color: #fff;
+}
+
+.ulFooter {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ulRedes {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.github, .linkedin{
+  width: 5rem;
+  height: 4rem;
+}
+
+.instagram{
+  width: 3.5rem;
+  height: 3rem;
+}
+
+.divContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-link{
+    margin: 0;
+  }
+
+  .navbar-nav{
+    padding-left: 1rem;
+  }
+
+  .navbar>.container-fluid{
+    gap : 0
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ulFooter{
+    flex-direction: column;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .ulRedes{
+    margin: 1rem 0;
+    padding: 0;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navbar{
+    font-size: 1.2rem;
+  }
+
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+}
