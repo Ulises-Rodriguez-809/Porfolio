@@ -6,6 +6,7 @@ import { Brand } from '../brand/Brand.jsx';
 export const NavBar = () => {
     return (
         <>
+        <header>
             <nav className="navbar navbar-expand-lg bg-dark">
                 <div className="container-fluid">
                     <Brand />
@@ -14,11 +15,12 @@ export const NavBar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            {ROUTES.map((ruta) => <LinkElement key={ruta.name} liText={ruta.name} url={ruta.path} />)}
+                            {ROUTES.map((ruta) => <LinkElement key={ruta.name} liText={ruta.name} url={ruta.path} isBlank={false}/>)}
                         </div>
                     </div>
                 </div>
             </nav>
+        </header>
         </>
     )
 }
