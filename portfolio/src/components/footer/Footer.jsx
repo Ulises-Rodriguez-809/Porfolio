@@ -1,5 +1,6 @@
+import './Footer.css'
 import React from 'react';
-import SN from '../../routes/socialNetworks.js';
+import SN from '../../assets/js/routes/socialNetworks.js';
 import { LinkElement } from '../navbar/LinkElement.jsx';
 import { Contact } from './Contact.jsx';
 import { Message } from './Message.jsx';

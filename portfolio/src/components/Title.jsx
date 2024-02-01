@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Title = ({title,subTitle, classText}) => {
+export const Title = ({title = "",subTitle = "", classText = ""}) => {
   return (
     <>
         <span>{title}</span>

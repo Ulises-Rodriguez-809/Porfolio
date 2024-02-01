@@ -7,7 +7,7 @@ export const Card = ({imgSrc, imgAlt, courseName, courseText, link}) => {
                 <div className="card-body">
                     <h5 className="card-title">{courseName}</h5>
                     <p className="card-text">{courseText}</p>
-                    <a href={link} className="btn btn-primary" target='_blank'>Youtube img o pagina de coder</a>
+                    {link && <a href={link} className="btn btn-primary" target='_blank'>Youtube img o pagina de coder</a>}  
                 </div>
         </div>
     )

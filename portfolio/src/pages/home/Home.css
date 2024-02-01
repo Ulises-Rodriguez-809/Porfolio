@@ -1,0 +1,44 @@
+/* Home */
+.titleHome,
+.jobTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.titleHome span {
+    text-align: center;
+}
+
+.titleHome__name {
+    color: #e7562e;
+}
+
+.jobTitle span {
+    margin: 0;
+}
+
+.presentation {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.subTitle {
+    color: rgb(255, 145, 0);
+}
+
+.imgPortfolio {
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+}
+
+.photo-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

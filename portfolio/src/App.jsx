@@ -1,8 +1,10 @@
 import './App.css';
 import {Routes, Route} from "react-router-dom";
 import { Layout } from './components/Layout';
-import { Home } from './pages/Home';
-import { Courses} from './pages/Courses';
+import { Home } from './pages/home/Home';
+import { Courses} from './pages/courses/Courses';
+import { Proyects } from './pages/proyects/Proyects';
+import { Skills } from './pages/Skills';
 
 function App() {
 
@@ -11,8 +13,10 @@ function App() {
     <Layout>
       <Routes>
         <Route path='/' element={<Home />}/>
+        <Route path='/proyectos' element={<Proyects />} />
         <Route path='/cursos' element={<Courses />}/>
-        <Route path='*' element={<h1>404</h1>}/>
+        <Route path='/habilidades' element={<Skills />}/>
+        <Route path='*' element={<h1>Foto de tino enojado</h1>}/>
       </Routes>
     </Layout>
     </>

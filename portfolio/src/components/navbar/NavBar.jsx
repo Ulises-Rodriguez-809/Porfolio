@@ -1,7 +1,8 @@
+import './NavBar.css'
 import React from 'react'
 import { LinkElement } from './LinkElement.jsx'
-import ROUTES from '../../routes/routes.js';
-import { Brand } from '../brand/Brand.jsx';
+import ROUTES from '../../assets/js/routes/routes.js';
+import { Brand } from './brand/Brand.jsx';
 
 export const NavBar = () => {
     return (
