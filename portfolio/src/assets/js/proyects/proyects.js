@@ -54,42 +54,62 @@ const PROYECTS = [
         description : "Este e-commerce (actualmente trabajando) ofrece un sistema de login/registro, JWT para la autenticación, passport para la estrategias de autenticación y bcrypt para contraseñas. Los productos, carritos y datos de usuarios se almacenan en MongoDB Atlas. Cuenta con un sistema de roles permite restringir el acceso a las rutas del sitio web según el rol del usuario. Tecnologias usadas: Node JS, Express JS, Moongose, JWT, MongoDB, Handlebars, bcrypt, passport",
         imgs : [
             {
-                id  : "",
-                name : "",
-                path : "/img/"
+                id  : "loginDB",
+                name : "loginDB",
+                path : "/img/ecommerceBackImg/01login.png"
             },
             {
-                id  : "",
-                name : "",
-                path : "/img/"
-            },
-            {
-                id  : "",
-                name : "",
-                path : "/img/"
-            },
+                id  : "productosDB",
+                name : "productosDB",
+                path : "/img/ecommerceBackImg/02productos.png"
+            }
         ]
     },
     {
-        id : "",
-        name : "",
-        job : "",
-        description : "",
+        id : "QuizPreguntas",
+        name : "Quiz de preguntas JS",
+        job : "Front-end developer",
+        description : "Cuenta con un login/registro trabajado con LocalStorage. Las preguntas y respuestas se obtiene mediante un fetch trabajado con async y await. Un sistema de ranking tanto para el jugador como para el equipo elegido. Se puede cambiar los datos del jugador (nombre y contraseña). Modularizado para mejor comprension del codigo y facilidad para poder modificar y corregir errores",
         imgs : [
             {
-                id  : "",
-                name : "",
-                path : "/img/"
+                id  : "login",
+                name : "login",
+                path : "/img/quizImg/1login.png"
             },
             {
-                id  : "",
-                name : "",
-                path : "/img/"
+                id  : "registro",
+                name : "registro",
+                path : "/img/quizImg/2register.png"
             },
             {
-                id  : "",
-                name : "",
-                path : "/img/"
+                id  : "ar",
+                name : "alerta de registro",
+                path : "/img/quizImg/3alert_register.png"
+            },
+            {
+                id  : "jpp",
+                name : "juego pantalla principal",
+                path : "/img/quizImg/4juego_main_screen.png"
+            },
+            {
+                id  : "ji",
+                name : "juego iniciado",
+                path : "/img/quizImg/5juego_iniciado.png"
+            },
+            {
+                id  : "fj",
+                name : "fin de juego",
+                path : "/img/quizImg/6fin_juego.png"
+            },
+            {
+                id  : "ranking",
+                name : "ranking",
+                path : "/img/quizImg/7ranking.png"
+            },
+            {
+                id  : "ci",
+                name : "cambiar informacion jugador",
+                path : "/img/quizImg/8change_info.png"
             },
         ]
     },

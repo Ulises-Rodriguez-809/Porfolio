@@ -11,7 +11,7 @@ export const Home = () => {
       <main>
         <section>
           <h1 className='titleHome'>
-            <Title title={"Hola, soy tu desarrollador"} subTitle={"Ulises Rodirugez"} classText={'titleHome__name'}/>
+            <Title title={"Hola, soy tu desarrollador"} subTitle={"Ulises Rodriguez"} classText={'titleHome__name'}/>
           </h1>
         </section>
         <section className='container-fluid'>
@@ -27,7 +27,9 @@ export const Home = () => {
               </div>
             </div>
             <div className='col-lg-9 order-lg-first'>
-              {PRESENTATION.map(pres=><Presentation key={pres.id} subTitle={pres.subTitle} text={pres.text}/>)}
+              <div>
+                {PRESENTATION.map(pres=><Presentation key={pres.id} subTitle={pres.subTitle} text={pres.text}/>)}
+              </div>
             </div>
           </div>
         </section>

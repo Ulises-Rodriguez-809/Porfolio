@@ -5,8 +5,13 @@ export const PRESENTATION = [
         id: "howStart"
     },
     {
+        subTitle: "Experiencia:",
+        text: "Cuenta con cierta experiencia freelance, en la cual desempeñe el labor de lider, investigador, comunicacion con el cliente y resto de los compañeros de equipo, manejo de repositorio y desarrollo front-end.",
+        id: "experience"
+    },
+    {
         subTitle: "Actualidad:",
-        text: "Actualmente soy estudiante de CoderHouse y busco mi primera oportunidad laboral.",
+        text: "Actualmente soy estudiante de CoderHouse y busco seguir escalando en el mundo IT.",
         id: "present"
     },
     {

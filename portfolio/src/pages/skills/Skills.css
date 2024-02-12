@@ -1,0 +1,90 @@
+.skillsTitle {
+    margin-top: 1rem;
+    font-size: clamp(1rem, 10vw, 4rem);
+    text-align: center;
+    color: rgb(255, 145, 0);
+}
+
+.skillsIntroduction{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.skillArea{
+    font-size: clamp(1rem, 10vw, 2rem);
+    margin-left: 4rem;
+    color: rgb(233, 133, 2);
+    font-weight: 700;
+}
+
+.skillsCardsContainer{
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    background-color: #bdbdbd;
+
+}
+
+.skillsCardContainer{
+    position: relative;
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem 0;
+    min-width: 16rem;
+    width: 16rem;
+    display: flex;
+    gap: 10px;
+}
+
+.cardContainer{
+    min-width: 20rem;
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardContainer>div{
+    height: 90%;
+    width: 90%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.cardSkillImg{
+    flex-grow: 1;
+    border-bottom: solid 4px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cardSkillImg>img{
+    /* width: 6rem; */
+    height: 6rem;
+}
+
+.cardSkillName{
+    flex-grow: 2;
+    padding-top: 2rem;
+}
+
+.cardSkillName>p{
+    flex-grow: 1;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: #08c;
+}
+
+
